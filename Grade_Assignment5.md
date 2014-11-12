@@ -8,8 +8,8 @@
 | 5 | The `users` table had the appropriate information added to it.                                         |   25     |   0 |
 |   |                                                                                                        |   100    |  30 |
 
-- I could log in as `griffin`, but I couldn't see the database 4443 and the appropriate tables. 
+- I could log in as `griffin`, but I couldn't see the database 4443 and the appropriate tables (or user 4443). 
 - This means 1 of 2 things: 
     - you didn't create the db and tables
     - you didn't give me permissions to see them
-- Email me after you change the permissions and I will add 50 to your grade if I can see the tables.
+- Email me after you change the permissions and I will add 50 to your grade if I can see the tables and the 4443 user.
