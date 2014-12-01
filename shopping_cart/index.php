@@ -1,5 +1,5 @@
 <?php
-$conn=mysqli_connect("localhost","username","password","db_name");
+$conn=mysqli_connect("localhost","RCScrape","password","RC_Scrape");
 require('backend.php');
 
 $RCstore = new RC_Store();
