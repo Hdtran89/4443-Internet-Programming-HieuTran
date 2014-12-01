@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <title>Hieu Tran Assignment Portal</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -47,6 +47,10 @@
             margin-bottom: 2px;
             height: 30px;
         }
+        #menu-toggle
+        {
+        	padding: 2px 10px 0px 0px; 
+        }
     </style>
 </head>
 
@@ -59,7 +63,7 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        Asignment Portal
+                        Hieu Tran Assignment Portal
                     </a>
                 </li>
                 <li>
