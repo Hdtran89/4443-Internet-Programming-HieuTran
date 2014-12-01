@@ -27,9 +27,10 @@ if(isset($_GET['cp']))
 
     <title>Shop Homepage - Start Bootstrap Template</title>
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
+    <!--<script src="js/jquery.js"></script>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
+
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.cookie.js"></script>
 	<link href="css/jquery-impromptu.css"	rel="stylesheet">
@@ -37,7 +38,7 @@ if(isset($_GET['cp']))
 	<script src="js/jquery.remodal.js"></script>
 	
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../Portal/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/shop-homepage.css" rel="stylesheet">
@@ -175,7 +176,7 @@ if(isset($_GET['cp']))
 					echo '
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <a href="" class="img-modal" data="'.$row['ProdID'].'"><img src="http://systempause.net/homepage/thumbs/'.$row['ProdID'].'.png" alt=""></a>
+                            <a href="" class="img-modal" data="'.$row['ProdID'].'"><img src="http://107.170.230.11/4443/shopping_cart/thumbs/'.$row['ProdID'].'.png" alt=""></a>
                             <div class="caption">
                                 <h4><a href=# data="'.$row['Name'].'"><span class="glyphicon glyphicon-shopping-cart shop-icon" data="'.$row['ProdID'].'"></span></a> $'.$row['Price'].'</h4>
                                 <h4><a href="#">'.$row['Name'].'</a></h4>
@@ -203,7 +204,7 @@ if(isset($_GET['cp']))
 		<div class="remodal" data-remodal-id="modal">
 			<h1>Car Title</h1>
 			<p>
-			  <img src="http://systempause.net/homepage/thumbs/45.png">
+			  <img src="http://107.170.230.11/4443/shopping_cart/thumbs/45.png">
 			</p>
 			<br>
 			<a class="remodal-cancel" href="#">Cancel</a>
@@ -212,7 +213,7 @@ if(isset($_GET['cp']))
 		<div class="remodal" data-remodal-id="modal-cart">
 			<h1>Car Title</h1>
 			<p>
-			  <img src="http://systempause.net/homepage/thumbs/45.png">
+			  <img src="http://107.170.230.11/4443/shopping_cart/thumbs/45.png">
 			</p>
 			<br>
 			<a class="remodal-cancel" href="#">Cancel</a>
