@@ -13,3 +13,4 @@
     - you didn't create the db and tables
     - you didn't give me permissions to see them
 - Email me after you change the permissions and I will add 50 to your grade if I can see the tables and the 4443 user.
+- I rechecked your phpmyadmin, and still couldn't see tables. So no 50 points.
